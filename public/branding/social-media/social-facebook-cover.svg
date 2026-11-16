@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1640 924" width="1640" height="924" fill="none">
+  <!-- Facebook Cover Banner (1640 x 924 standard) -->
+  <defs>
+    <linearGradient id="fbNavyGrad" x1="0" y1="0" x2="1640" y2="924" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123B66"/>
+      <stop offset="0.7" stop-color="#0E2C4D"/>
+      <stop offset="1" stop-color="#0A213A"/>
+    </linearGradient>
+    <linearGradient id="fbAquaGrad" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C7C9"/>
+      <stop offset="1" stop-color="#1688D4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1640" height="924" fill="url(#fbNavyGrad)"/>
+
+  <!-- Flowing Water Curve Graphic -->
+  <path d="M 0 550 C 450 480, 950 680, 1640 520 L 1640 924 L 0 924 Z" fill="#1688D4" opacity="0.1"/>
+  <path d="M 0 580 C 500 510, 900 710, 1640 560 L 1640 924 L 0 924 Z" fill="#22C7C9" opacity="0.06"/>
+
+  <!-- Left Content Column -->
+  <g transform="translate(120, 140)">
+    <!-- Brand Logo -->
+    <g transform="translate(0, 0)">
+      <g transform="translate(0, 0) scale(1.4)">
+        <path d="M 11 29 C 11 36.8 17.2 43 25 43 C 33.2 43 39.5 36.5 39.5 28 C 39.5 21.8 35.8 16.2 31.5 11.5" stroke="#22C7C9" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="30 8"/>
+        <path d="M 24 5 C 24 5 13 18.5 13 28 C 13 34.6 17.9 40 24 40 C 30.1 40 35 34.6 35 28 C 35 18.5 24 5 24 5 Z" fill="#1688D4"/>
+        <path d="M 15 30 C 18 34.5 22 36 24 36 C 28 36 32 33 34 28 C 34.2 32.5 31 38.5 24 38.5 C 17.5 38.5 14.2 33.5 15 30 Z" fill="#22C7C9" opacity="0.8"/>
+        <path d="M 21 21.5 L 24 19 L 26.5 19 L 26.5 33 L 29 33 L 29 35.5 L 19 35.5 L 19 33 L 21.5 33 L 21.5 22 Z" fill="#FFFFFF"/>
+      </g>
+      <text x="80" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="38" font-weight="800">
+        <tspan fill="#FFFFFF">No.1 </tspan>
+        <tspan fill="#22C7C9">RO </tspan>
+        <tspan fill="#FFFFFF">Service</tspan>
+      </text>
+      <text x="82" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" fill="#E2EAF2">
+        Your Trusted Partner for Pure Water.
+      </text>
+    </g>
+
+    <!-- Main Headline -->
+    <g transform="translate(0, 130)">
+      <text x="0" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="52" font-weight="900" fill="#FFFFFF">
+        Professional Doorstep RO Service
+      </text>
+      <text x="0" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="44" font-weight="900" fill="url(#fbAquaGrad)">
+        Installation • Repair • Filter Change • AMC Plans
+      </text>
+      <text x="0" y="170" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="500" fill="#CBD5E1">
+        Prompt technician visits, quality spare parts, and transparent service pricing.
+      </text>
+    </g>
+
+    <!-- Value Badges -->
+    <g transform="translate(0, 360)">
+      <rect x="0" y="0" width="230" height="50" rx="10" fill="#0E2C4D" stroke="#1E4E80" stroke-width="1.5"/>
+      <text x="20" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#22C7C9">
+        ✓ Skilled Technicians
+      </text>
+
+      <rect x="250" y="0" width="230" height="50" rx="10" fill="#0E2C4D" stroke="#1E4E80" stroke-width="1.5"/>
+      <text x="270" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#22C7C9">
+        ✓ Quality Spare Parts
+      </text>
+
+      <rect x="500" y="0" width="230" height="50" rx="10" fill="#0E2C4D" stroke="#1E4E80" stroke-width="1.5"/>
+      <text x="520" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#22C7C9">
+        ✓ Affordable AMC
+      </text>
+    </g>
+
+    <!-- Call to action bar -->
+    <g transform="translate(0, 460)">
+      <rect width="730" height="90" rx="16" fill="#FFFFFF"/>
+      <text x="30" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#123B66">
+        Customer Helpline: [Configurable Support Phone]
+      </text>
+      <g transform="translate(520, 20)">
+        <rect width="180" height="50" rx="10" fill="#1688D4"/>
+        <text x="90" y="32" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">
+          BOOK ONLINE
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Visual / Water Droplet Crest Frame -->
+  <g transform="translate(1120, 180)">
+    <circle cx="200" cy="240" r="210" fill="#0E2C4D" stroke="#1E4E80" stroke-width="4"/>
+    <circle cx="200" cy="240" r="190" fill="#123B66" stroke="#22C7C9" stroke-width="2" stroke-dasharray="8 6"/>
+
+    <!-- Large Water Droplet Symbol inside frame -->
+    <g transform="translate(152, 160) scale(2)">
+      <path d="M 11 29 C 11 36.8 17.2 43 25 43 C 33.2 43 39.5 36.5 39.5 28 C 39.5 21.8 35.8 16.2 31.5 11.5" stroke="#22C7C9" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="30 8"/>
+      <path d="M 24 5 C 24 5 13 18.5 13 28 C 13 34.6 17.9 40 24 40 C 30.1 40 35 34.6 35 28 C 35 18.5 24 5 24 5 Z" fill="#1688D4"/>
+      <path d="M 15 30 C 18 34.5 22 36 24 36 C 28 36 32 33 34 28 C 34.2 32.5 31 38.5 24 38.5 C 17.5 38.5 14.2 33.5 15 30 Z" fill="#22C7C9" opacity="0.8"/>
+      <path d="M 21 21.5 L 24 19 L 26.5 19 L 26.5 33 L 29 33 L 29 35.5 L 19 35.5 L 19 33 L 21.5 33 L 21.5 22 Z" fill="#FFFFFF"/>
+    </g>
+
+    <text x="200" y="350" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#22C7C9">
+      No1ROService.in
+    </text>
+  </g>
+</svg>

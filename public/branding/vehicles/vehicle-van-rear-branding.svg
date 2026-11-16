@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" width="800" height="650" fill="none">
+  <!-- Vehicle Livery Specification - Rear View (Doors & Safety Livery) -->
+  <defs>
+    <linearGradient id="rearWaveGrad" x1="150" y1="360" x2="650" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123B66"/>
+      <stop offset="0.7" stop-color="#1688D4"/>
+      <stop offset="1" stop-color="#22C7C9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="650" fill="#F4F8FC"/>
+
+  <!-- Specification Title -->
+  <g transform="translate(60, 40)">
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#123B66">
+      No.1 RO Service • Commercial Van Livery Specification (Rear View)
+    </text>
+    <text x="0" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#64748B">
+      Rear Door Vinyl Decal Layout &amp; Safety Identification
+    </text>
+  </g>
+
+  <!-- Van Rear Body Outline -->
+  <g transform="translate(180, 100)">
+    <!-- Main Box Body -->
+    <path d="M 40 40 C 60 20, 100 15, 220 15 C 340 15, 380 20, 400 40 L 420 400 C 420 420, 400 430, 370 430 L 70 430 C 40 430, 20 420, 20 400 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+
+    <!-- Central Vertical Door Split Line -->
+    <line x1="220" y1="15" x2="220" y2="430" stroke="#CBD5E1" stroke-width="2.5"/>
+
+    <!-- Left & Right Rear Glass Windows -->
+    <rect x="50" y="55" width="155" height="120" rx="12" fill="#1E293B"/>
+    <rect x="235" y="55" width="155" height="120" rx="12" fill="#1E293B"/>
+
+    <!-- Perforated Window Vision Graphic (Left: Brand Tagline; Right: Domain) -->
+    <g transform="translate(127, 120)" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif">
+      <text y="0" font-size="11" font-weight="800" fill="#22C7C9">PURE WATER EXPERTS</text>
+      <text y="16" font-size="8.5" font-weight="600" fill="#E2EAF2">Prompt Doorstep Service</text>
+    </g>
+    <g transform="translate(312, 120)" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif">
+      <text y="0" font-size="12" font-weight="800" fill="#FFFFFF">BOOK ONLINE</text>
+      <text y="16" font-size="9" font-weight="700" fill="#22C7C9">No1ROService.in</text>
+    </g>
+
+    <!-- Rear Door Lower Wave Decal Wrap -->
+    <path d="M 20 320 C 120 340, 320 290, 420 310 L 420 400 C 420 420, 400 430, 370 430 L 70 430 C 40 430, 20 420, 20 400 Z" fill="url(#rearWaveGrad)"/>
+    <path d="M 20 312 C 120 332, 320 282, 420 302" stroke="#22C7C9" stroke-width="6" fill="none"/>
+
+    <!-- Central Logo Placement on Metal Panel -->
+    <g transform="translate(120, 195)">
+      <!-- Logo Mark -->
+      <g transform="translate(0, 0) scale(0.95)">
+        <path d="M 11 29 C 11 36.8 17.2 43 25 43 C 33.2 43 39.5 36.5 39.5 28 C 39.5 21.8 35.8 16.2 31.5 11.5" stroke="#22C7C9" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="30 8"/>
+        <path d="M 24 5 C 24 5 13 18.5 13 28 C 13 34.6 17.9 40 24 40 C 30.1 40 35 34.6 35 28 C 35 18.5 24 5 24 5 Z" fill="#123B66"/>
+        <path d="M 15 30 C 18 34.5 22 36 24 36 C 28 36 32 33 34 28 C 34.2 32.5 31 38.5 24 38.5 C 17.5 38.5 14.2 33.5 15 30 Z" fill="#22C7C9" opacity="0.8"/>
+        <path d="M 21 21.5 L 24 19 L 26.5 19 L 26.5 33 L 29 33 L 29 35.5 L 19 35.5 L 19 33 L 21.5 33 L 21.5 22 Z" fill="#FFFFFF"/>
+      </g>
+      <!-- Wordmark -->
+      <text x="54" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800">
+        <tspan fill="#123B66">No.1 </tspan>
+        <tspan fill="#1688D4">RO </tspan>
+        <tspan fill="#172B45">Service</tspan>
+      </text>
+      <text x="56" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#64748B">
+        Your Trusted Partner for Pure Water.
+      </text>
+    </g>
+
+    <!-- Services Summary List (Right Door) -->
+    <g transform="translate(240, 255)" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#123B66">
+      <text x="0" y="0">• RO Repair &amp; Service</text>
+      <text x="0" y="16">• Filter Replacement</text>
+      <text x="0" y="32">• Comprehensive AMC</text>
+    </g>
+
+    <!-- Helpline Display across Lower Wave -->
+    <g transform="translate(220, 370)" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif">
+      <text y="0" font-size="12" font-weight="800" fill="#FFFFFF">
+        CUSTOMER HELPLINE
+      </text>
+      <text y="18" font-size="15" font-weight="900" fill="#22C7C9" letter-spacing="0.5">
+        [Configurable Support Phone]
+      </text>
+      <text y="34" font-size="9.5" font-weight="700" fill="#FFFFFF">
+        www.no1roservice.in
+      </text>
+    </g>
+
+    <!-- License Plate & Tail Lights -->
+    <rect x="170" y="415" width="100" height="24" rx="4" fill="#FEF08A" stroke="#EAB308" stroke-width="1.5"/>
+    <text x="220" y="431" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" font-weight="800" fill="#1E293B">
+      DL 01 RO 2026
+    </text>
+
+    <!-- Tail Lights -->
+    <rect x="25" y="220" width="14" height="60" rx="4" fill="#DC2626"/>
+    <rect x="401" y="220" width="14" height="60" rx="4" fill="#DC2626"/>
+  </g>
+</svg>

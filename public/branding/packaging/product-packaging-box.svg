@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="900" height="650" fill="none">
+  <!-- Product Packaging Die-cut Preview & Concept (RO Filter Cartridge Box) -->
+  <defs>
+    <linearGradient id="packNavy" x1="0" y1="0" x2="300" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123B66"/>
+      <stop offset="1" stop-color="#0E2C4D"/>
+    </linearGradient>
+    <linearGradient id="packAqua" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C7C9"/>
+      <stop offset="1" stop-color="#1688D4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="650" fill="#F4F8FC"/>
+
+  <!-- Specification Title -->
+  <g transform="translate(60, 40)">
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#123B66">
+      No.1 RO Service • Product Packaging &amp; Filter Box Concept
+    </text>
+    <text x="0" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#64748B">
+      Eco-Friendly Heavy Cardboard Packaging with Tamper-Evident Security Seal
+    </text>
+  </g>
+
+  <!-- Isometric / 3D Perspective Box View -->
+  <!-- Box Front Face -->
+  <g transform="translate(100, 120)">
+    <rect x="0" y="0" width="280" height="420" rx="6" fill="url(#packNavy)" stroke="#1E4E80" stroke-width="2"/>
+    <rect x="0" y="412" width="280" height="8" rx="4" fill="url(#packAqua)"/>
+
+    <!-- Subtle water droplet background art -->
+    <path d="M 140 60 C 140 60 70 140 70 200 C 70 240 100 270 140 270 C 180 270 210 240 210 200 C 210 140 140 60 140 60 Z" fill="#22C7C9" opacity="0.06"/>
+
+    <!-- Top Security Seal Simulation -->
+    <rect x="90" y="-8" width="100" height="16" rx="4" fill="#22C7C9"/>
+    <text x="140" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="800" fill="#123B66" letter-spacing="1">
+      GENUINE SPARE SEAL
+    </text>
+
+    <!-- Brand Logo on Box Front -->
+    <g transform="translate(30, 40)">
+      <g transform="translate(0, 0) scale(0.9)">
+        <path d="M 11 29 C 11 36.8 17.2 43 25 43 C 33.2 43 39.5 36.5 39.5 28 C 39.5 21.8 35.8 16.2 31.5 11.5" stroke="#22C7C9" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="30 8"/>
+        <path d="M 24 5 C 24 5 13 18.5 13 28 C 13 34.6 17.9 40 24 40 C 30.1 40 35 34.6 35 28 C 35 18.5 24 5 24 5 Z" fill="#1688D4"/>
+        <path d="M 15 30 C 18 34.5 22 36 24 36 C 28 36 32 33 34 28 C 34.2 32.5 31 38.5 24 38.5 C 17.5 38.5 14.2 33.5 15 30 Z" fill="#22C7C9" opacity="0.8"/>
+        <path d="M 21 21.5 L 24 19 L 26.5 19 L 26.5 33 L 29 33 L 29 35.5 L 19 35.5 L 19 33 L 21.5 33 L 21.5 22 Z" fill="#FFFFFF"/>
+      </g>
+      <text x="50" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800">
+        <tspan fill="#FFFFFF">No.1 </tspan>
+        <tspan fill="#22C7C9">RO </tspan>
+        <tspan fill="#FFFFFF">Service</tspan>
+      </text>
+      <text x="52" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#E2EAF2">
+        Your Trusted Partner for Pure Water.
+      </text>
+    </g>
+
+    <!-- Product Category & Title -->
+    <g transform="translate(30, 130)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#22C7C9" opacity="0.2"/>
+      <text x="6" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="800" fill="#22C7C9" letter-spacing="1">
+        HIGH-GRADE SPARE
+      </text>
+
+      <text x="0" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">
+        Multi-Layer Sediment
+      </text>
+      <text x="0" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#22C7C9">
+        Filter Cartridge
+      </text>
+      <text x="0" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="500" fill="#E2EAF2">
+        5 Micron Precision Melt-Blown Polypropylene
+      </text>
+    </g>
+
+    <!-- Filter Graphic Illustration inside Box -->
+    <g transform="translate(90, 240)">
+      <rect x="0" y="0" width="100" height="90" rx="8" fill="#F4F8FC" opacity="0.1" stroke="#22C7C9" stroke-width="1.5"/>
+      <circle cx="50" cy="45" r="28" fill="#FFFFFF" opacity="0.9"/>
+      <circle cx="50" cy="45" r="14" fill="#123B66"/>
+      <text x="50" y="106" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#22C7C9">
+        STANDARD 10-INCH FIT
+      </text>
+    </g>
+
+    <!-- Bottom Features & Verification -->
+    <g transform="translate(30, 375)" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#E2EAF2">
+      <text x="0" y="0">✓ NSF Certified Material</text>
+      <text x="0" y="16">✓ High Dirt-Holding Capacity</text>
+      <text x="140" y="0">✓ Food-Grade Safety</text>
+      <text x="140" y="16">✓ Long Membrane Life</text>
+    </g>
+  </g>
+
+  <!-- Side Panel of the Box -->
+  <g transform="translate(420, 120)">
+    <rect x="0" y="0" width="180" height="420" rx="6" fill="#FFFFFF" stroke="#E2EAF2" stroke-width="2"/>
+    <rect x="0" y="0" width="180" height="8" rx="4" fill="#1688D4"/>
+
+    <g transform="translate(20, 30)">
+      <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#123B66">
+        SPECIFICATIONS
+      </text>
+
+      <g transform="translate(0, 20)" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#172B45">
+        <text y="0" font-weight="700">Length:</text>
+        <text y="14" fill="#64748B">10 Inches (25.4 cm)</text>
+
+        <text y="38" font-weight="700">Micron Rating:</text>
+        <text y="52" fill="#64748B">5 Micron (Nominal)</text>
+
+        <text y="76" font-weight="700">Operating Temp:</text>
+        <text y="90" fill="#64748B">4°C to 45°C</text>
+
+        <text y="114" font-weight="700">Max Pressure:</text>
+        <text y="128" fill="#64748B">125 PSI</text>
+
+        <text y="152" font-weight="700">Life Expectancy:</text>
+        <text y="166" fill="#64748B">3 to 6 Months (TDS Dep.)</text>
+      </g>
+
+      <!-- Barcode Placeholder -->
+      <g transform="translate(0, 260)">
+        <rect width="140" height="50" fill="#F4F8FC" stroke="#E2EAF2" stroke-width="1"/>
+        <line x1="15" y1="8" x2="15" y2="42" stroke="#172B45" stroke-width="2"/>
+        <line x1="22" y1="8" x2="22" y2="42" stroke="#172B45" stroke-width="3"/>
+        <line x1="30" y1="8" x2="30" y2="42" stroke="#172B45" stroke-width="1.5"/>
+        <line x1="38" y1="8" x2="38" y2="42" stroke="#172B45" stroke-width="2"/>
+        <line x1="48" y1="8" x2="48" y2="42" stroke="#172B45" stroke-width="4"/>
+        <line x1="60" y1="8" x2="60" y2="42" stroke="#172B45" stroke-width="1.5"/>
+        <line x1="70" y1="8" x2="70" y2="42" stroke="#172B45" stroke-width="3"/>
+        <line x1="82" y1="8" x2="82" y2="42" stroke="#172B45" stroke-width="2"/>
+        <line x1="94" y1="8" x2="94" y2="42" stroke="#172B45" stroke-width="3.5"/>
+        <line x1="106" y1="8" x2="106" y2="42" stroke="#172B45" stroke-width="1.5"/>
+        <line x1="120" y1="8" x2="120" y2="42" stroke="#172B45" stroke-width="2"/>
+      </g>
+
+      <!-- Website -->
+      <text x="70" y="340" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#1688D4">
+        No1ROService.in
+      </text>
+    </g>
+  </g>
+
+  <!-- Box Top Flap Simulation -->
+  <g transform="translate(640, 120)">
+    <rect x="0" y="0" width="180" height="160" rx="6" fill="#F4F8FC" stroke="#E2EAF2" stroke-width="1.5"/>
+    <g transform="translate(90, 80)" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif">
+      <circle r="30" fill="#123B66"/>
+      <path d="M 90 65 L 90 95" stroke="#22C7C9" stroke-width="2"/>
+      <text y="4" font-size="16" font-weight="900" fill="#FFFFFF">#1</text>
+      <text y="50" font-size="9" font-weight="700" fill="#123B66">TOP OPENING FLAP</text>
+      <text y="64" font-size="8" font-weight="500" fill="#64748B">Seal with Security Tape</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+export const routes = {
+  home: "/",
+  about: "/about",
+  services: {
+    index: "/services",
+    repair: "/services/ro-repair",
+    installation: "/services/ro-installation",
+    maintenance: "/services/ro-maintenance",
+    filterReplacement: "/services/filter-replacement",
+    membraneReplacement: "/services/membrane-replacement",
+  },
+  amcPlans: "/amc-plans",
+  brands: "/brands",
+  locations: "/locations",
+  serviceAreas: "/locations",
+  contact: "/contact",
+  booking: "/book-service",
+  privacy: "/privacy-policy",
+  terms: "/terms-and-conditions",
+};

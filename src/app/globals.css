@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@theme {
+  /* ==========================================================
+     APPROVED BRAND COLOR PALETTE
+     ========================================================== */
+  --color-brand-navy: #123B66;
+  --color-brand-blue: #1688D4;
+  --color-brand-aqua: #22C7C9;
+  --color-brand-white: #FFFFFF;
+  --color-brand-bg-light: #F4F8FC;
+  --color-brand-text: #172B45;
+  --color-brand-muted: #64748B;
+  --color-brand-border: #E2EAF2;
+
+  /* Semantic UI Tokens */
+  --color-primary: #1688D4;
+  --color-primary-hover: #1271B3;
+  --color-secondary: #123B66;
+  --color-secondary-hover: #0E2C4D;
+  --color-accent: #22C7C9;
+  --color-accent-hover: #1AA6A8;
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #F4F8FC;
+
+  /* Typography */
+  --font-sans: var(--font-jakarta), var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: var(--font-jakarta), var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Shadows */
+  --shadow-subtle: 0 1px 2px 0 rgba(18, 59, 102, 0.04);
+  --shadow-card: 0 2px 8px -2px rgba(18, 59, 102, 0.06), 0 1px 4px -1px rgba(18, 59, 102, 0.04);
+  --shadow-card-hover: 0 12px 24px -6px rgba(18, 59, 102, 0.10), 0 4px 8px -4px rgba(18, 59, 102, 0.05);
+  --shadow-popover: 0 16px 36px -8px rgba(18, 59, 102, 0.14);
+}
+
+@layer base {
+  :root {
+    --background: 213 60% 97.5%; /* #F4F8FC */
+    --foreground: 216 50% 18%;   /* #172B45 */
+    --border: 211 40% 91.5%;     /* #E2EAF2 */
+    --ring: 204 81% 46%;         /* #1688D4 */
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    background-color: #F4F8FC;
+    color: #172B45;
+    font-family: var(--font-sans);
+  }
+
+  /* Standard Heading Hierarchy */
+  h1 {
+    font-size: clamp(2rem, 3.5vw + 1rem, 3.25rem);
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    color: #123B66;
+  }
+
+  h2 {
+    font-size: clamp(1.625rem, 2.5vw + 0.8rem, 2.375rem);
+    line-height: 1.22;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #123B66;
+  }
+
+  h3 {
+    font-size: clamp(1.25rem, 1.8vw + 0.6rem, 1.75rem);
+    line-height: 1.3;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    color: #123B66;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: #123B66;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+    line-height: 1.45;
+    font-weight: 600;
+    color: #123B66;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748B;
+  }
+}
+
+/* Body Text Utility Classes */
+.text-body-lg {
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: #172B45;
+}
+
+.text-body-regular {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #172B45;
+}
+
+.text-body-sm {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #64748B;
+}
+
+.text-caption {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: #64748B;
+  letter-spacing: 0.02em;
+}
+
+.form-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #172B45;
+}
+
+.nav-link {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #172B45;
+  transition: color 150ms ease;
+}
+
+.nav-link:hover {
+  color: #1688D4;
+}
+
+/* Custom Professional Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F8FC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

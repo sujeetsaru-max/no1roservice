@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" fill="none">
+  <!-- Circular RO Maintenance Reminder Sticker (Appliance Adhesive Decal) -->
+  <defs>
+    <linearGradient id="stickerBorderGrad" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C7C9"/>
+      <stop offset="0.5" stop-color="#1688D4"/>
+      <stop offset="1" stop-color="#123B66"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Ring with Gradient -->
+  <circle cx="200" cy="200" r="195" fill="#FFFFFF" stroke="url(#stickerBorderGrad)" stroke-width="10"/>
+  <circle cx="200" cy="200" r="182" fill="#F4F8FC" stroke="#E2EAF2" stroke-width="1.5"/>
+
+  <!-- Header Banner -->
+  <path d="M 50 110 C 130 90, 270 90, 350 110 L 350 70 C 270 50, 130 50, 50 70 Z" fill="#123B66"/>
+  <text x="200" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" letter-spacing="1">
+    SERVICE &amp; FILTER REMINDER
+  </text>
+
+  <!-- Brand Mark -->
+  <g transform="translate(176, 115) scale(0.95)">
+    <path d="M 11 29 C 11 36.8 17.2 43 25 43 C 33.2 43 39.5 36.5 39.5 28 C 39.5 21.8 35.8 16.2 31.5 11.5" stroke="#22C7C9" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="30 8"/>
+    <path d="M 24 5 C 24 5 13 18.5 13 28 C 13 34.6 17.9 40 24 40 C 30.1 40 35 34.6 35 28 C 35 18.5 24 5 24 5 Z" fill="#1688D4"/>
+    <path d="M 15 30 C 18 34.5 22 36 24 36 C 28 36 32 33 34 28 C 34.2 32.5 31 38.5 24 38.5 C 17.5 38.5 14.2 33.5 15 30 Z" fill="#22C7C9" opacity="0.8"/>
+    <path d="M 21 21.5 L 24 19 L 26.5 19 L 26.5 33 L 29 33 L 29 35.5 L 19 35.5 L 19 33 L 21.5 33 L 21.5 22 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Brand Title -->
+  <text x="200" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800">
+    <tspan fill="#123B66">No.1 </tspan>
+    <tspan fill="#1688D4">RO </tspan>
+    <tspan fill="#172B45">Service</tspan>
+  </text>
+  <text x="200" y="196" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#64748B">
+    Your Trusted Partner for Pure Water.
+  </text>
+
+  <!-- Service Log Table Fields -->
+  <g transform="translate(60, 215)">
+    <!-- Service Done Date -->
+    <rect x="0" y="0" width="280" height="28" rx="6" fill="#FFFFFF" stroke="#E2EAF2" stroke-width="1.5"/>
+    <text x="10" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#123B66">
+      Last Service Date:
+    </text>
+    <text x="120" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="500" fill="#64748B">
+      ___ / ___ / 202___
+    </text>
+
+    <!-- Next Service Due Date -->
+    <rect x="0" y="34" width="280" height="28" rx="6" fill="#EAF5FC" stroke="#1688D4" stroke-width="1.5"/>
+    <text x="10" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#1688D4">
+      Next Service Due:
+    </text>
+    <text x="120" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#123B66">
+      ___ / ___ / 202___
+    </text>
+
+    <!-- Technician Code / Signature -->
+    <rect x="0" y="68" width="280" height="28" rx="6" fill="#FFFFFF" stroke="#E2EAF2" stroke-width="1.5"/>
+    <text x="10" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#123B66">
+      Technician ID:
+    </text>
+    <text x="120" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="500" fill="#64748B">
+      [ TECH - # ____________ ]
+    </text>
+  </g>
+
+  <!-- Bottom Helpline Call-out -->
+  <path d="M 60 330 C 140 348, 260 348, 340 330 L 325 365 C 255 375, 145 375, 75 365 Z" fill="#123B66"/>
+  <text x="200" y="352" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#22C7C9">
+    📞 HELPLINE: [Configurable Support]
+  </text>
+  <text x="200" y="382" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#1688D4">
+    Book Online: No1ROService.in
+  </text>
+</svg>

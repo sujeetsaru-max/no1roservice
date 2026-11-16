@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 48" width="280" height="48" fill="none">
+  <!-- Brand Icon -->
+  <g transform="translate(0, 0)">
+    <path d="M 11 29 C 11 36.8 17.2 43 25 43 C 33.2 43 39.5 36.5 39.5 28 C 39.5 21.8 35.8 16.2 31.5 11.5" stroke="#22C7C9" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="30 8"/>
+    <path d="M 24 5 C 24 5 13 18.5 13 28 C 13 34.6 17.9 40 24 40 C 30.1 40 35 34.6 35 28 C 35 18.5 24 5 24 5 Z" fill="url(#dropletGradHoriz)"/>
+    <path d="M 15 30 C 18 34.5 22 36 24 36 C 28 36 32 33 34 28 C 34.2 32.5 31 38.5 24 38.5 C 17.5 38.5 14.2 33.5 15 30 Z" fill="#22C7C9" opacity="0.75"/>
+    <path d="M 21 21.5 L 24 19 L 26.5 19 L 26.5 33 L 29 33 L 29 35.5 L 19 35.5 L 19 33 L 21.5 33 L 21.5 22 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(56, 0)">
+    <!-- Primary Brand Title: No.1 RO Service -->
+    <text x="0" y="27" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5">
+      <tspan fill="#123B66">No.1 </tspan>
+      <tspan fill="#1688D4">RO </tspan>
+      <tspan fill="#172B45">Service</tspan>
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="1" y="41" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="9" font-weight="600" fill="#64748B" letter-spacing="0.5">
+      Your Trusted Partner for Pure Water
+    </text>
+  </g>
+
+  <defs>
+    <linearGradient id="dropletGradHoriz" x1="16" y1="6" x2="33" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1688D4"/>
+      <stop offset="1" stop-color="#123B66"/>
+    </linearGradient>
+  </defs>
+</svg>

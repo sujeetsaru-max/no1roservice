@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <!-- Aqua Water Purification Arc -->
+  <path d="M 6 19 C 6 24.8 10.5 29.5 16.5 29.5 C 22.5 29.5 27 24.8 27 18.5 C 27 14 24.5 10 21.5 6.5" stroke="#22C7C9" stroke-width="2" stroke-linecap="round" stroke-dasharray="20 6"/>
+  <!-- Primary Water Droplet -->
+  <path d="M 16 3 C 16 3 8 12.5 8 19 C 8 23.8 11.6 27.5 16 27.5 C 20.4 27.5 24 23.8 24 19 C 24 12.5 16 3 16 3 Z" fill="url(#favGrad)"/>
+  <!-- Pure Water Filtered Crescent -->
+  <path d="M 9.5 20.5 C 11.5 24 14.5 25 16 25 C 19 25 21.5 23 23 19.5 C 23.2 23 21 26.5 16 26.5 C 11 26.5 9 22.8 9.5 20.5 Z" fill="#22C7C9" opacity="0.8"/>
+  <!-- Clean Integrated Numeral 1 -->
+  <path d="M 14 14.5 L 16 12.8 L 17.8 12.8 L 17.8 22.5 L 19.5 22.5 L 19.5 24 L 12.5 24 L 12.5 22.5 L 14.2 22.5 L 14.2 14.8 Z" fill="#FFFFFF"/>
+  <defs>
+    <linearGradient id="favGrad" x1="10" y1="4" x2="22" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1688D4"/>
+      <stop offset="1" stop-color="#123B66"/>
+    </linearGradient>
+  </defs>
+</svg>
